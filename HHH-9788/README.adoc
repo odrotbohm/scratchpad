@@ -1,0 +1,9 @@
+= Steps to reproduce
+
+[source, bash]
+----
+$ mvn clean test <1>
+$ mvn clean test -Psnapshots <2>
+----
+<1> works
+<2> doesn't
